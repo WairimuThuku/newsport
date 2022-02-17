@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd4e7ac-8195-4c69-a145-d5dd47fa0287" name="Changes" comment="">
+    <list default="true" id="2dd4e7ac-8195-4c69-a145-d5dd47fa0287" name="Changes" comment="creation of folders in .main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/DepartmentsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/DepartmentsNewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/GeneralNewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/NewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oDepartmentsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oDepertmentNewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oGeneralNewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oNewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oUsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/UsersDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +26,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1644775617738</updated>
     </task>
+    <task id="LOCAL-00001" summary="creation of folders in .main">
+      <created>1644927985879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644927985879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creation of folders in .main" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of folders in .main" />
   </component>
 </project>
