@@ -1,5 +1,5 @@
 # newsPort
-For news organisation to post their news.
+this is a Java/Spark application with a rest REST API for querying and retrieving scoped news and information. News, articles and posts are available to all users without navigating into any department, and others that are housed or classified within departments.
 
 ### author name
 * Lulu Thuku
