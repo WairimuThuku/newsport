@@ -1,0 +1,2 @@
+DROP DATABASE newsport;
+DROP DATABASE newsport;
