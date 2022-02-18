@@ -4,34 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd4e7ac-8195-4c69-a145-d5dd47fa0287" name="Changes" comment="creation of folders in .main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/DepartmentsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/DepartmentsNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/GeneralNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oDepartmentsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oDepertmentNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oGeneralNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oUsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/UsersDao.java" afterDir="false" />
+    <list default="true" id="2dd4e7ac-8195-4c69-a145-d5dd47fa0287" name="Changes" comment="update on the imports&#10;declaration on the implements">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Database/drop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/DepartmentsNewsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/GeneralNewsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/Sql2oDepertmentNewsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/Sql2oGeneralNewsDao.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="newsport" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +58,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2549hBFgIUtTeFhYdzXZ1V0Eyul" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,6 +76,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="newsport.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create.sql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file>$PROJECT_DIR$/src/main/resources/Database/create.sql</odps_target_file>
+      <odps_output_dir>/tmp</odps_output_dir>
+      <job_name />
+      <odps_parameter name="odps.compiler.runmode" value="Studio" />
+      <odps_parameter name="odps.sql.type.system.odps2" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="drop.sql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file>$PROJECT_DIR$/src/main/resources/Database/drop.sql</odps_target_file>
+      <odps_output_dir>/tmp</odps_output_dir>
+      <job_name />
+      <odps_parameter name="odps.compiler.runmode" value="Studio" />
+      <odps_parameter name="odps.sql.type.system.odps2" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,7 +123,119 @@
       <option name="project" value="LOCAL" />
       <updated>1644927985879</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creation of the departments files and their Sql20 files">
+      <created>1645086101247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645086101247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementation of the create, read and delete section">
+      <created>1645086273669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645086273669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="declaration of the exception class">
+      <created>1645166051239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166051239</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update of the import classes&#10;creation of the paths  for the user,news and departments&#10;creation of of posts for the user,news and departments">
+      <created>1645166215914</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166215914</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update of the dependancies">
+      <created>1645166334866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166334866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update of the newsport sql">
+      <created>1645166604738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166604738</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update of the imports&#10;declaration of the interface">
+      <created>1645166835017</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166835017</updated>
+    </task>
+    <task id="LOCAL-00009" summary="declaration of the class">
+      <created>1645168539298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645168539298</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update of the imports">
+      <created>1645168883174</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645168883174</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update of the imports &#10;declaration of the interface">
+      <created>1645170191496</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645170191496</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update of the imports &#10;creation of the private and its declaration">
+      <created>1645170252554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645170252554</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update of the imports&#10;declaration of the interface">
+      <created>1645170345051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645170345051</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update of the imports&#10;declaration of the public class">
+      <created>1645170405089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645170405089</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update of the app name">
+      <created>1645170470940</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645170470940</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update on the imports&#10;declaration on the implements">
+      <created>1645171439162</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645171439162</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update on the imports&#10;declaration on the implements">
+      <created>1645171484436</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645171484436</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +251,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creation of folders in .main" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of folders in .main" />
+    <MESSAGE value="creation of the departments files and their Sql20 files" />
+    <MESSAGE value="implementation of the create, read and delete section" />
+    <MESSAGE value="declaration of the exception class" />
+    <MESSAGE value="update of the import classes&#10;creation of the paths  for the user,news and departments&#10;creation of of posts for the user,news and departments" />
+    <MESSAGE value="update of the dependancies" />
+    <MESSAGE value="update of the newsport sql" />
+    <MESSAGE value="declaration of the class" />
+    <MESSAGE value="update of the imports" />
+    <MESSAGE value="update of the imports &#10;declaration of the interface" />
+    <MESSAGE value="update of the imports &#10;creation of the private and its declaration" />
+    <MESSAGE value="update of the imports&#10;declaration of the interface" />
+    <MESSAGE value="update of the imports&#10;declaration of the public class" />
+    <MESSAGE value="update of the app name" />
+    <MESSAGE value="update on the imports&#10;declaration on the implements" />
+    <option name="LAST_COMMIT_MESSAGE" value="update on the imports&#10;declaration on the implements" />
   </component>
 </project>
